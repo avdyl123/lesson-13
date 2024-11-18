@@ -1,0 +1,11 @@
+ul{
+    list-style-image: url(icon.png);
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+ ol{
+    list-style-type: lower-alpha;
+ }
+ 
