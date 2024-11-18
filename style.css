@@ -1,6 +1,17 @@
 ul{
-    list-style-image: url(icon.png);
+    /*list-style-image: url(icon.png);*/
 }
+ul{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid gray ;
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid gray ;
+}
+
 
 ol{
     list-style-type: upper-roman;
@@ -8,4 +19,35 @@ ol{
  ol{
     list-style-type: lower-alpha;
  }
- 
+
+ td, th{
+    border: 1px solid white;
+    padding: 15px;
+ }
+ tbody tr:nth-child(odd){
+    background-color: azure;
+ }
+ tbody tr:nth-child(even){
+    background-color: bisque;
+ }
+ /*div{
+    overflow: scroll;
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+ }
+*/
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td,{
+    text-align:left;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: azure;
+}
+
+
